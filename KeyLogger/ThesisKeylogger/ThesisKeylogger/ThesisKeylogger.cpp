@@ -2,11 +2,34 @@
 //
 
 #include "pch.h"
+#include <stdlib.h>
+#include <Windows.h>
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	while (true)
+	{
+		system("cls");
+		if (GetAsyncKeyState(0x57) != 0)
+		{
+			std::cout << "w";
+		}
+		if (GetAsyncKeyState(0x41) != 0)
+		{
+			std::cout << "a";
+		}
+		if (GetAsyncKeyState(0x53) != 0)
+		{
+			std::cout << "s";
+		}
+		if (GetAsyncKeyState(0x44) != 0)
+		{
+			std::cout << "d";
+		}
+		Sleep(10);
+	}
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
