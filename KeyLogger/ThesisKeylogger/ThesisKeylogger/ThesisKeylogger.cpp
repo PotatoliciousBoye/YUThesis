@@ -19,14 +19,14 @@ int main()
 	remove(outputFileName.c_str());
 	std::ofstream outputFile;
 	outputFile.open(outputFileName.c_str());
-	outputFile << "w,a,s,d,space,mouseX,mouseY,username\n";
+	outputFile << "w,a,s,d,space,mouseX,mouseY\n";
 	
 	bool programEnd = false;
 	int start = 0;
 	STARTUPINFO si = { 0 };
 	PROCESS_INFORMATION pi = { 0 };
 	double runningFor = 0;
-	double runtime = 120000;
+	double runtime = 6000;
 
 	POINT cursor;
 	LONG cursorTempX;
@@ -50,7 +50,7 @@ int main()
 			start++;
 			PlaySound(TEXT("Ding.wav"), NULL, SND_FILENAME);
 		}
-		Sleep(100);
+		Sleep(1000);
 		
 	}
 
@@ -108,9 +108,6 @@ int main()
 
 		cursorTempX = cursor.x;
 		cursorTempY = cursor.y;
-
-		outputFile << username;
-
 
 		outputFile << "\n";
 
