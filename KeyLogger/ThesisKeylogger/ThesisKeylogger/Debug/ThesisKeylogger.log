@@ -1,2 +1,3 @@
-﻿  ThesisKeylogger.cpp
+﻿  pch.cpp
+  ThesisKeylogger.cpp
   ThesisKeylogger.vcxproj -> D:\GitRep\YUThesis\KeyLogger\ThesisKeylogger\Debug\ThesisKeylogger.exe
