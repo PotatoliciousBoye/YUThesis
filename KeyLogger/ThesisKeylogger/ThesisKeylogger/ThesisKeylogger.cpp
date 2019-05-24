@@ -5,21 +5,34 @@
 #include <Windows.h>
 #include <iostream>
 #include <fstream>
+#include <string>
 
 int main()
 {
+
+	std::string username;
+	std::cout << "Enter username\n";
+	std::getline(std::cin, username);
+
+	std::string outputFileName = "output - " + username + ".csv";
+
+	remove(outputFileName.c_str());
 	std::ofstream outputFile;
-	outputFile.open("output.csv");
-	outputFile << "w,a,s,d,space,mouseX,mouseY\n";
+	outputFile.open(outputFileName.c_str());
+	outputFile << "w,a,s,d,space,mouseX,mouseY,username\n";
+	
 	bool programEnd = false;
-	int gatherStart = 0;
+	int start = 0;
 	STARTUPINFO si = { 0 };
 	PROCESS_INFORMATION pi = { 0 };
+	double runningFor = 0;
+	double runtime = 120000;
 
 	POINT cursor;
 	LONG cursorTempX;
 	LONG cursorTempY;
 	
+	std::cout << "\nBooting the game...";
 	CreateProcess(L"kkrieger.exe",   // the path
 		NULL,        // Command line
 		NULL,           // Process handle not inheritable
@@ -31,15 +44,14 @@ int main()
 		&si,            // Pointer to STARTUPINFO structure
 		&pi             // Pointer to PROCESS_INFORMATION structure (removed extra parentheses)
 	);
-	while (gatherStart < 2)
+	while (start < 2)
 	{
 		if (GetAsyncKeyState(VK_RETURN) != 0) {
-			gatherStart++;
+			start++;
 			PlaySound(TEXT("Ding.wav"), NULL, SND_FILENAME);
 		}
-		Sleep(1000);
-		if (gatherStart == 2)
-			PlaySound(TEXT("Notify.wav"), NULL, SND_FILENAME);
+		Sleep(100);
+		
 	}
 
 	GetCursorPos(&cursor);
@@ -97,17 +109,24 @@ int main()
 		cursorTempX = cursor.x;
 		cursorTempY = cursor.y;
 
+		outputFile << username;
+
 
 		outputFile << "\n";
 
-		if (GetAsyncKeyState(0x50) != 0)
+		if (GetAsyncKeyState(0x50) != 0 || runningFor >= runtime)
 		{
 			programEnd = true;
 			TerminateProcess(pi.hProcess, NULL);
 		}
 		Sleep(10);
+		runningFor++;
+
 	}
 	outputFile.close();
+
+	std::cout << "\n\n Thanks for participating in my thesis work. Press any key to close the program.";
+	std::cin;
 	
 }
 
