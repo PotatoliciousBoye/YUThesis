@@ -29,3 +29,15 @@ Known issues
 
 - Game may crash or not run altogeher after entering username. (Restarting the exe a couple of times usually fixes the problem.)
 - Game may get stuck on a black screen. (If this happens press P to kill the process instead of alt+f4.)
+
+___________
+
+Contents of the output.csv
+
+- W = if the key "W" is pressed in that interval or not
+- A = if the key "A" is pressed in that interval or not
+- S = if the key "S" is pressed in that interval or not
+- D = if the key "D" is pressed in that interval or not
+- Space = if the space bar is pressed in that interval or not
+- Mouse X = disposition of the mouse in the x axis between current and last interval
+- Mouse Y = disposition of the mouse in the y axis between current and last interval
