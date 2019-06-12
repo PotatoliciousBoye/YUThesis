@@ -22,3 +22,10 @@ Instructions to participate
 - Walk with WASD keys, jump with space bar, aim and shoot with mouse and switch weapons with 1-5.
 - After ~5 minutes, game will close down, leaving an output csv in the folder.
 - Upload that csv file to http://bit.do/thesisDataUpload.
+
+___________
+
+Known issues
+
+- Game may crash or not run altogeher after entering username. (Restarting the exe a couple of times usually fixes the problem.)
+- Game may get stuck on a black screen. (If this happens press P to kill the process instead of alt+f4.)
