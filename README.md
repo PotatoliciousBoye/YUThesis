@@ -11,14 +11,14 @@ ___________
 
 Instructions to participate
 
-1- Download the batch that contains the keylogger and the game from http://bit.do/ThesisDataGather.
-2- Run ThesisDataGather.exe.
-3- When it prompts, enter your username to the command screen.
-4- After inputting your username and pressing enter, the game will start automaticly.
-5- Game will start with a bar, indicating that it is loading.
-6- When the game loads, it will boot into an intro which can be skipped by pressing space bar once.
-7- In the main menu, pick "Start Game" by pressing enter.
-8- Game will immidiately start, spawning you inside a room with a gun.
-9- Walk with WASD keys, jump with space bar, aim and shoot with mouse and switch weapons with 1-5.
-10- After ~5 minutes, game will close down, leaving an output csv in the folder.
-11- Upload that csv file to http://bit.do/thesisDataUpload.
+- Download the batch that contains the keylogger and the game from http://bit.do/ThesisDataGather.
+- Run ThesisDataGather.exe.
+- When it prompts, enter your username to the command screen.
+- After inputting your username and pressing enter, the game will start automaticly.
+- Game will start with a bar, indicating that it is loading.
+- When the game loads, it will boot into an intro which can be skipped by pressing space bar once.
+- In the main menu, pick "Start Game" by pressing enter.
+- Game will immidiately start, spawning you inside a room with a gun.
+- Walk with WASD keys, jump with space bar, aim and shoot with mouse and switch weapons with 1-5.
+- After ~5 minutes, game will close down, leaving an output csv in the folder.
+- Upload that csv file to http://bit.do/thesisDataUpload.
