@@ -1,0 +1,11 @@
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\bin\Debug\netcoreapp2.1\ThesisDataExtract.deps.json
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\bin\Debug\netcoreapp2.1\ThesisDataExtract.runtimeconfig.json
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\bin\Debug\netcoreapp2.1\ThesisDataExtract.runtimeconfig.dev.json
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\bin\Debug\netcoreapp2.1\ThesisDataExtract.dll
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\bin\Debug\netcoreapp2.1\ThesisDataExtract.pdb
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\obj\Debug\netcoreapp2.1\ThesisDataExtract.csprojAssemblyReference.cache
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\obj\Debug\netcoreapp2.1\ThesisDataExtract.csproj.CoreCompileInputs.cache
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\obj\Debug\netcoreapp2.1\ThesisDataExtract.AssemblyInfoInputs.cache
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\obj\Debug\netcoreapp2.1\ThesisDataExtract.AssemblyInfo.cs
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\obj\Debug\netcoreapp2.1\ThesisDataExtract.dll
+D:\GitRep\YUThesis\DataExtracter\ThesisDataExtract\obj\Debug\netcoreapp2.1\ThesisDataExtract.pdb
